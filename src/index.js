@@ -44,7 +44,7 @@ import Temp from "./Components/Temp";
         </Route>
         <Route path="contact" element={<Contact />} />
         <Route path="user/:userid" element={<User/>}/>
-        <Route path="github/:userid" element={<Github />} loader = {
+        <Route path="github/:userid" element={<Github />} loader = { // super imp
           useGithubInfoLoader
         } />
     </Route>
